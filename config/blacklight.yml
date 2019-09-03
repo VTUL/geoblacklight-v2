@@ -1,0 +1,9 @@
+development:
+  adapter: solr
+  url: <%= Rails.application.secrets['blacklight_url'] %>
+test: &test
+  adapter: solr
+  url: <%= Rails.application.secrets['blacklight_url'] %>
+production:
+  adapter: solr
+  url: <%= Rails.application.secrets['blacklight_url'] %>

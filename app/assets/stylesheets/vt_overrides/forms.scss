@@ -1,0 +1,29 @@
+/* VT Specific Styles */
+@import 'colors';
+
+/* Increase contrast on input borders to improve accessibility */
+input[type=text], input[type=email], input[type=password] {
+  border: 1px solid #aaa;
+}
+
+/* Set border color and box shadow of session related inputs to match the bootstrap colors */
+input[type=text]:focus, input[type=email]:focus, input[type=password]:focus {
+  border: 1px solid #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  outline: 0;
+}
+
+.btn-primary {
+  background-color: $hokie-blue-dark-med;
+}
+.btn-primary:hover {
+  background-color: $hokie-blue-light-med;
+}
+.btn-primary:active {
+  background-color: $hokie-blue-light;
+}
+
+.actions {
+  margin-top: 5px;
+}

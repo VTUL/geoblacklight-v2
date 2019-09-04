@@ -1,0 +1,39 @@
+/* VT specific styles */
+@import 'colors';
+
+.navbar-inverse {
+  background-color: $hokie-maroon;
+  border-color: $hokie-orange;
+}
+#header-navbar {
+  .navbar-vt {
+    background: image_url('vt_overrides/vt_logo.svg') left center no-repeat transparent;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    text-indent: 100%;
+    white-space: nowrap;
+    padding-right: 0px;
+    margin-right: 5px;
+    padding-left: 0px;
+    overflow: hidden;
+  }
+  .navbar-home {
+    display: inline-block;
+    font-size: 2.25rem;
+    font-weight: 200;
+    color: white;
+    padding: 10px 0;
+    vertical-align: top;
+  }
+  .navbar-home:hover {
+    color: $off-white;
+  }
+}
+
+.navbar-right ul.nav li a {
+  color: white;
+}
+.navbar-right ul.nav li a:hover {
+  color: $off-white;
+}

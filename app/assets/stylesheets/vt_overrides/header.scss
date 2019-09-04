@@ -1,11 +1,9 @@
 /* VT specific styles */
 @import 'colors';
 
-.navbar-inverse {
+#header-navbar {
   background-color: $hokie-maroon;
   border-color: $hokie-orange;
-}
-#header-navbar {
   .navbar-vt {
     background: image_url('vt_overrides/vt_logo.svg') left center no-repeat transparent;
     width: 150px;

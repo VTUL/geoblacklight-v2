@@ -2,6 +2,7 @@
 @import 'colors';
 
 #header-navbar {
+  padding: 0 1rem;
   background-color: $hokie-maroon;
   border-color: $hokie-orange;
   .navbar-vt {
@@ -18,10 +19,10 @@
   }
   .navbar-home {
     display: inline-block;
-    font-size: 2.25rem;
+    font-size: 1.7rem;
     font-weight: 200;
     color: white;
-    padding: 10px 0;
+    padding: 0;
     vertical-align: top;
   }
   .navbar-home:hover {

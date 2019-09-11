@@ -144,8 +144,7 @@ class CatalogController < ApplicationController
     config.add_show_field(
       Settings.FIELDS.REFERENCES,
       label: 'More details at',
-      accessor: [:external_url],
-      #if: proc { |_, _, doc| doc.external_url },
+      if: proc { |_, _, doc| !doc['dct_references_s'].blank? },
       helper_method: :render_references_link
     )
 

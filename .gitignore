@@ -8,6 +8,8 @@
 /.bundle
 vendor/bundle
 
+bin
+
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
@@ -30,3 +32,4 @@ vendor/bundle
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/config/secrets.yml

@@ -145,8 +145,8 @@ class CatalogController < ApplicationController
       Settings.FIELDS.REFERENCES,
       label: 'More details at',
       accessor: [:external_url],
-      if: proc { |_, _, doc| doc.external_url },
-      helper_method: :render_references_url
+      #if: proc { |_, _, doc| doc.external_url },
+      helper_method: :render_references_link
     )
 
     # "fielded" search configuration. Used by pulldown among other places.
